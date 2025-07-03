@@ -19,7 +19,7 @@
    - Structure in a way that you can easily add styles later.
    - Add SEO meta tags to the website.
 ## Project Link
-This is my solution for the [Basic HTML Website Project](https://roadmap.sh/projects/basic-html-website) from roadmap.sh
+This is my solution for the [Basic HTML Website Project] (https://roadmap.sh/projects/basic-html-website) from roadmap.sh
 
 It contains basic HTML files for a multi-page website.
 
