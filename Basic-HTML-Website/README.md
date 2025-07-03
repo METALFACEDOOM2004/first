@@ -12,7 +12,7 @@
    - Articles
    - Contact
    - The website should have a navigation bar that should be present on all pages and link to all the pages.
-## Goal   
+## Goals   
    The goals of this project are:
    - Learn how to create multiple pages in a website.
    - Structure a website using HTML in a semantic way.
