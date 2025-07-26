@@ -71,7 +71,7 @@ nav li:first-child{
     } 
     .menu-button{
         display: block;
-         }   
+    }   
 } 
 @media (max-width: 400px){
     .sidebar{
