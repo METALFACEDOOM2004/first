@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Orbitron:wght@400..900&family=Syne:wght@400..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding:0%;
+    margin:0%;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background: url(/RCO050_1462964601.jpg) center center/ cover no-repeat;
+    font-family: 'Bebas Neue', 'Orbitron', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+nav{
+   background: whitesmoke;
+   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1); 
+}
+nav ul{
+   width: 100%;
+   display: flex;
+   justify-content: flex-end;
+   list-style: none;
+   align-items: center;
+}
+nav li{
+    height: 50px;
+
+}
+nav a{
+    height: 100%;
+    padding: 0 30px;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    color: black;
+}
+nav a:hover{
+    background-color: #f0f0f0;
+    transition: 0.3s ease-in-out;
+}
+nav li:first-child{
+    margin-right: auto;
+}
+.sidebar{
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    background-color: rgba(245, 245, 245, 0.426);
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.sidebar li{
+    width: 100%; 
+}
+.sidebar a{
+    width: 100%;
+} 
+.menu-button{
+    display: none;
+}
+@media (max-width: 800px){
+    .hideOnMobile{
+        display: none;
+    } 
+    .menu-button{
+        display: block;
+        
+    }   
+} 
+@media (max-width: 400px){
+    .sidebar{
+        width: 100%;
+    }
+}       
