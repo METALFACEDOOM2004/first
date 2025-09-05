@@ -1,0 +1,14 @@
+body{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#myButton{
+    background: hsl(350, 93%, 76%);
+    color: cornsilk;
+    border-radius: 5px;
+    font-size: 3em;
+    padding: 20px 30px;
+}
+.myLabels{
+    font-size: 3em;
+}
